@@ -21,7 +21,7 @@ const Throttler = ThrottlerModule.forRoot({
   limit: 10,
 });
 const Mongo = MongooseModule.forRoot(
-  'mongodb://localhost/mydb',
+  'mongodb+srv://test:test@cluster0.cl5xw.mongodb.net/mydb?retryWrites=true&w=majority',
 );
 
 @Module({
